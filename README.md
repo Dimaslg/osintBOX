@@ -1,8 +1,34 @@
 # osintBOX  
 Parrot OS distro modified with the most popular OSINT tools  
   
-The tools included:  
-Dmitry ExifTool Eyewitness Fierce Google-Earth-Pro Maltego MAT2 Metagoofil OSINTgram OSRFramework PhoneInfoga Photon Recon-NG Sherlock Sublist3r Spiderfoot TheHarvester Twint  
+# Tools
+- Dmitry
+- ExifTool
+- Eyewitness
+- Fierce
+- Google-Earth-Pro
+- Maltego
+- MAT2
+- Metagoofil
+- OSINTgram
+- OSRFramework
+- PhoneInfoga
+- Photon
+- Recon-NG
+- Sherlock
+- Sublist3r
+- Spiderfoot
+- TheHarvester
+- Twint  
+
+# Installation  
+  
+git clone https://github.com/Dimaslg/osintBOX.git  
+cd osintBOX  
+chmod 755 osintBOX.sh  
+./osintBOX  
+
+# After install  
   
 After the script installation, you can check the different options with the following commands:  
   
@@ -28,12 +54,3 @@ The following programs have a GUI interface and the options can be checked from 
   
 maltego  
 google-earth-pro  
-  
-  
-Installation:  
-
-git clone https://github.com/Dimaslg/osintBOX.git  
-cd osintBOX  
-chmod 755 osintBOX.sh  
-./osintBOX  
-  
