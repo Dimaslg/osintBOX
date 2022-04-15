@@ -50,22 +50,13 @@ make install
 cd ..
 clear
 
-# Twint
-#git clone --depth=1 https://github.com/twintproject/twint.git
-#cd twint/
-#pip install aiohttp==3.7.0
-#pip3 install . -r requirements.txt
-#pip3 install twint
-#cd ..
-#clear
-
 # TheHarvester
 git clone https://github.com/laramies/theHarvester
 cd theHarvester/
 python3 -m pip install -r requirements/base.txt
 apt install theharvester -y
-#pip3 install -r requirements.txt
 cd ..
+rm -r theHarvester/
 clear
 
 # Spiderfoot
@@ -74,6 +65,7 @@ tar zxvf v4.0.tar.gz
 rm v4.0.tar.gz
 cd spiderfoot-4.0
 pip3 install -r requirements.txt
+python3 ./sf.py -l localhost:5001
 cd ..
 clear
 
@@ -117,5 +109,14 @@ echo "# sherlock -h"
 echo "# sublist3r -h"
 echo "# theHarvester -h"
 echo "# sudo twint -h"
+echo "# "
+echo "# "
+echo "# To user Spiderfoot"
+echo "# Access -> http://localhost:5001"
+echo "# "
+echo "# "
+echo "# You can access Malteo from the APPs menu or typing the command "maltego""
+echo "# "
+echo "# You can access Google Earth Pro from the APPs menu or typing the command "google-earth-pro""
 echo "# "
 echo "# "
