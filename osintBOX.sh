@@ -5,8 +5,8 @@ sudo apt update --fix-missing
 sudo apt upgrade
 
 # Lets create a folder for those tools that need to be installed manually
-mkdir /home/osint/tools
-cd /home/osint/tools
+mkdir /home/$USER/tools
+cd /home/$USER/tools
 
 echo " "
 echo "                              _       _   ____   _____  __    "
@@ -65,7 +65,6 @@ tar zxvf v4.0.tar.gz
 rm v4.0.tar.gz
 cd spiderfoot-4.0
 pip3 install -r requirements.txt
-python3 ./sf.py -l localhost:5001
 cd ..
 clear
 
@@ -111,6 +110,7 @@ echo "# theHarvester -h"
 echo "# sudo twint -h"
 echo "# "
 echo "# "
+python3 /home/$USER/tools/spiderfoot-4.0/sf.py -l localhost:5001
 echo "# To user Spiderfoot"
 echo "# Access -> http://localhost:5001"
 echo "# "
