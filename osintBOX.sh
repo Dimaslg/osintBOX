@@ -16,6 +16,8 @@ echo "                    \___/|___/_|_| |_|\__|____/ \___/_/\_\    "
 echo " "
 
 # Instalacion de Requisitios
+sudo apt install python3 -y
+sudo apt install python3-pip -y
 
 # Instalacion de Herramientas automaticamente
 # dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock
@@ -39,12 +41,10 @@ echo "# OSINTgram Twint TheHarvester Spiderfoot PhoneInfoga"
 # OSINTgram
 git clone https://github.com/Datalux/Osintgram.git
 cd Osintgram/
-sudo apt install python3 -y
-sudo apt install python3-pip -y
 sudo apt install libncurses5-dev -y
 sudo pip install gnureadline==6.3.3
-python3 -m venv venv
-source venv/bin/activate
+#python3 -m venv venv
+#source venv/bin/activate
 pip3 install -r requirements.txt
 make install
 cd ..
@@ -63,15 +63,14 @@ clear
 git clone https://github.com/laramies/theHarvester
 cd theHarvester/
 python3 -m pip install -r requirements/base.txt
-pip3 install -r requirements.txt
-cd ..
 apt install theharvester -y
+#pip3 install -r requirements.txt
+cd ..
 clear
 
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
 tar zxvf v4.0.tar.gz
-rm v4.0.tar.gz
 cd spiderfoot-4.0
 pip3 install -r requirements.txt
 cd ..
