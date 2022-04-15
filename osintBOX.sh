@@ -7,6 +7,7 @@ sudo apt upgrade -y
 # Lets create a folder for those tools that need to be installed manually
 mkdir /home/$USER/Tools
 cd /home/$USER/Tools
+clear
 
 echo " "
 echo "                              _       _   ____   _____  __    "
@@ -62,7 +63,7 @@ clear
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
 tar zxvf v4.0.tar.gz
-sudo rm v4.0.tar.gz -y
+sudo rm v4.0.tar.gz
 cd spiderfoot-4.0
 sudo pip3 install -r requirements.txt
 cd ..
@@ -79,7 +80,7 @@ echo "# Google Earth Pro"
 wget -O google-earth64.deb http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
 sudo dpkg -i google-earth64.deb
 sudo apt-get -f install
-sudo rm google-earth64.deb -y
+sudo rm google-earth64.deb
 clear
 
 echo " "
