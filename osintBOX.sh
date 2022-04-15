@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update
+sudo apt update --fix-missing
 
 # Creacion de un Directorio donde descargar las herramientas
 
@@ -20,8 +22,14 @@ echo " "
 echo "# Installing APPs"
 echo "# The Following APPs are going to be Installed"
 echo "# dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock"
-sudo apt install dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil osrframework photon recon-ng sublist3r sherlock -y
+sudo apt install dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil photon recon-ng sublist3r sherlock -y
+sudo pip3 install osrframework
+clear
+echo "#"
+echo "#"
 echo "# Automated installation of APPs completed"
+echo "#"
+echo "#"
 
 echo "# Installing APPs from Github"
 echo "# The Following APPs are going to be Installed"
@@ -39,6 +47,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 make install
 cd ..
+clear
 
 # Twint
 git clone --depth=1 https://github.com/twintproject/twint.git
@@ -46,15 +55,17 @@ cd twint/
 pip install aiohttp==3.7.0
 pip3 install . -r requirements.txt
 pip3 install twint
-pipenv install git+https://github.com/twintproject/twint.git#egg=twint
 cd ..
+clear
 
 # TheHarvester
 git clone https://github.com/laramies/theHarvester
 cd theHarvester/
 python3 -m pip install -r requirements/base.txt
+pip3 install -r requirements.txt
 cd ..
 apt install theharvester -y
+clear
 
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
@@ -63,11 +74,13 @@ rm v4.0.tar.gz
 cd spiderfoot-4.0
 pip3 install -r requirements.txt
 cd ..
+clear
 
 # PhoneInfoga
 curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
 ./phoneinfoga version
 sudo mv ./phoneinfoga /usr/bin/phoneinfoga
+clear
 
 echo "# Installing APPs from Other Sources"
 echo "# The Following APPs are going to be Installed"
@@ -76,6 +89,7 @@ wget -O google-earth64.deb http://dl.google.com/dl/earth/client/current/google-e
 sudo dpkg -i google-earth64.deb
 sudo apt-get -f install
 rm google-earth64.deb
+clear
 
 echo " "
 echo "                              _       _   ____   _____  __    "
