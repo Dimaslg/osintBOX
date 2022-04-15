@@ -1,5 +1,5 @@
 # osintBOX  
-Parrot OS distro modified with the most popular OSINT tools  
+Parrot OS Home edition modified with the most popular OSINT tools  
 https://www.parrotsec.org  
   
 # Tools
