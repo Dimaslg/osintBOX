@@ -6,10 +6,10 @@ Dmitry ExifTool Eyewitness Fierce Google-Earth-Pro Maltego MAT2 Metagoofil OSINT
 
 After the script installation, you can check the different options with the following commands:
 
-dmitry -h
-exiftool -h
-eyewitness -h
-fierce -h
+dmitry -h  
+exiftool -h  
+eyewitness -h  
+fierce -h  
 mat2 -h
 metagoofil -h
 sudo osrf -h
