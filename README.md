@@ -48,8 +48,8 @@ sublist3r -h
 theHarvester -h  
 sudo twint -h  
   
-osintgram.py  
-sf.py  
+/home/$USER/Tools/Osintgram/osintgram.py -h  
+/home/$USER/Tools/spiderfoot-4.0/sf.py -h  
   
 The following programs have a GUI interface and the options can be checked from it  
   
