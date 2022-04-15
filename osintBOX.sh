@@ -5,8 +5,8 @@ sudo apt update --fix-missing
 sudo apt upgrade
 
 # Lets create a folder for those tools that need to be installed manually
-mkdir /home/$USER/tools
-cd /home/$USER/tools
+mkdir /home/$USER/Tools
+cd /home/$USER/Tools
 
 echo " "
 echo "                              _       _   ____   _____  __    "
@@ -110,7 +110,7 @@ echo "# theHarvester -h"
 echo "# sudo twint -h"
 echo "# "
 echo "# "
-python3 /home/$USER/tools/spiderfoot-4.0/sf.py -l localhost:5001
+python3 /home/$USER/Tools/spiderfoot-4.0/sf.py -l localhost:5001
 echo "# To user Spiderfoot"
 echo "# Access -> http://localhost:5001"
 echo "# "
