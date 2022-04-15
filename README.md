@@ -1,25 +1,26 @@
 # osintBOX  
-Parrot OS distro modified with the most popular OSINT tools  
+Parrot OS distro modified with the most popular OSINT tools 
+https://www.parrotsec.org  
   
 # Tools
-- Dmitry
-- ExifTool
-- Eyewitness
-- Fierce
-- Google-Earth-Pro
-- Maltego
-- MAT2
-- Metagoofil
-- OSINTgram
-- OSRFramework
-- PhoneInfoga
-- Photon
-- Recon-NG
-- Sherlock
-- Sublist3r
-- Spiderfoot
-- TheHarvester
-- Twint  
+- Dmitry (https://github.com/jaygreig86/dmitry)
+- ExifTool (https://exiftool.org/)
+- Eyewitness (https://github.com/FortyNorthSecurity/EyeWitness)
+- Fierce (https://github.com/mschwager/fierce)
+- Google-Earth-Pro (https://www.google.com/intl/es/earth/)
+- Maltego (https://www.maltego.com/)
+- MAT2 (https://0xacab.org/jvoisin/mat2)
+- Metagoofil (https://github.com/laramies/metagoofil)
+- OSINTgram (https://github.com/Datalux/Osintgram)
+- OSRFramework (https://github.com/i3visio/osrframework)
+- PhoneInfoga (https://github.com/sundowndev/phoneinfoga)
+- Photon (https://github.com/s0md3v/Photon)
+- Recon-NG (https://github.com/lanmaster53/recon-ng)
+- Sherlock (https://github.com/sherlock-project/sherlock)
+- Sublist3r (https://github.com/aboul3la/Sublist3r)
+- Spiderfoot (https://github.com/smicallef/spiderfoot)
+- TheHarvester (https://github.com/laramies/theHarvester)
+- Twint (https://github.com/twintproject/twint)
 
 # Installation  
   
