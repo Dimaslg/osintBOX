@@ -71,6 +71,7 @@ clear
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
 tar zxvf v4.0.tar.gz
+rm v4.0.tar.gz
 cd spiderfoot-4.0
 pip3 install -r requirements.txt
 cd ..
