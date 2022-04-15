@@ -29,3 +29,10 @@ The following programs have a GUI interface and the options can be checked from 
   
 maltego  
 google-earth-pro  
+  
+  
+Installation:  
+
+git clone https://github.com/Dimaslg/osintBOX.git 
+cd osintBOX  
+./osintBOX    
