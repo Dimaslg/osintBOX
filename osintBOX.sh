@@ -45,32 +45,31 @@ git clone https://github.com/Datalux/Osintgram.git
 cd Osintgram/
 sudo apt install libncurses5-dev -y
 sudo pip install gnureadline==6.3.3
-pip3 install -r requirements.txt
-make install
+sudo pip3 install -r requirements.txt
+sudo make install
 cd ..
 clear
 
 # TheHarvester
 git clone https://github.com/laramies/theHarvester
 cd theHarvester/
-python3 -m pip install -r requirements/base.txt
-apt install theharvester -y
+sudo python3 -m pip install -r requirements/base.txt
+sudo apt install theharvester -y
 cd ..
-rm -r theHarvester/
+sudo rm -r theHarvester/
 clear
 
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
 tar zxvf v4.0.tar.gz
-rm v4.0.tar.gz
+sudo rm v4.0.tar.gz -y
 cd spiderfoot-4.0
-pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
 cd ..
 clear
 
 # PhoneInfoga
 curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
-./phoneinfoga version
 sudo mv ./phoneinfoga /usr/bin/phoneinfoga
 clear
 
@@ -80,7 +79,7 @@ echo "# Google Earth Pro"
 wget -O google-earth64.deb http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
 sudo dpkg -i google-earth64.deb
 sudo apt-get -f install
-rm google-earth64.deb
+sudo rm google-earth64.deb -y
 clear
 
 echo " "
@@ -110,13 +109,13 @@ echo "# theHarvester -h"
 echo "# sudo twint -h"
 echo "# "
 echo "# "
-python3 /home/$USER/Tools/spiderfoot-4.0/sf.py -l localhost:5001
+sudo python3 /home/$USER/Tools/spiderfoot-4.0/sf.py -l localhost:5001
 echo "# To use Spiderfoot"
 echo "# Access -> http://localhost:5001"
 echo "# "
 echo "# To use PhoneInfoga"
 echo "# Access http://localhost:5002"
-phoneinfoga serve -p 5002
+sudo phoneinfoga serve -p 5002
 echo "# You can access Malteo from the APPs menu or typing the command "maltego""
 echo "# "
 echo "# You can access Google Earth Pro from the APPs menu or typing the command "google-earth-pro""
