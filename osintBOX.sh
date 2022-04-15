@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 # Lets update the system before we begin with the installation
 sudo apt update
 sudo apt update --fix-missing
