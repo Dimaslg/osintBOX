@@ -33,6 +33,7 @@ google-earth-pro
 Installation:  
 
 git clone https://github.com/Dimaslg/osintBOX.git  
-cd osintBOX  
+cd osintBOX
+chmod 755 osintBOX.sh
 ./osintBOX  
   
