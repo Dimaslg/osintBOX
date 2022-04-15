@@ -13,7 +13,6 @@ fierce -h
 mat2 -h  
 metagoofil -h  
 sudo osrf -h  
-sudo osrf -h  
 phoneinfoga -h  
 photon -h  
 recon-ng -h  
