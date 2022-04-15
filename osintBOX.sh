@@ -24,6 +24,7 @@ echo "# The Following APPs are going to be Installed"
 echo "# dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock"
 sudo apt install dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil photon recon-ng sublist3r sherlock -y
 sudo pip3 install osrframework
+sudo pip3 install twint
 clear
 echo "#"
 echo "#"
@@ -50,13 +51,13 @@ cd ..
 clear
 
 # Twint
-git clone --depth=1 https://github.com/twintproject/twint.git
-cd twint/
-pip install aiohttp==3.7.0
-pip3 install . -r requirements.txt
-pip3 install twint
-cd ..
-clear
+#git clone --depth=1 https://github.com/twintproject/twint.git
+#cd twint/
+#pip install aiohttp==3.7.0
+#pip3 install . -r requirements.txt
+#pip3 install twint
+#cd ..
+#clear
 
 # TheHarvester
 git clone https://github.com/laramies/theHarvester
