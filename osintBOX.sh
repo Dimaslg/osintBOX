@@ -54,7 +54,7 @@ git clone https://github.com/laramies/theHarvester
 cd theHarvester/
 python3 -m pip install -r requirements/base.txt
 cd ..
-apt install theHarvester -y
+apt install theharvester -y
 
 # Spiderfoot
 wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
