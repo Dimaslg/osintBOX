@@ -110,13 +110,6 @@ echo "# theHarvester -h"
 echo "# sudo twint -h"
 echo "# "
 echo "# "
-sudo python3 /home/$USER/Tools/spiderfoot-4.0/sf.py -l localhost:5001
-echo "# To use Spiderfoot"
-echo "# Access -> http://localhost:5001"
-echo "# "
-echo "# To use PhoneInfoga"
-echo "# Access http://localhost:5002"
-sudo phoneinfoga serve -p 5002
 echo "# You can access Malteo from the APPs menu or typing the command "maltego""
 echo "# "
 echo "# You can access Google Earth Pro from the APPs menu or typing the command "google-earth-pro""
