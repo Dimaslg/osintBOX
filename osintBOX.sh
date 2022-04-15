@@ -1,9 +1,10 @@
 #!/bin/bash
+# Lets update the system before we begin with the installation
 sudo apt update
 sudo apt update --fix-missing
+sudo apt upgrade
 
-# Creacion de un Directorio donde descargar las herramientas
-
+# Lets create a folder for those tools that need to be installed manually
 mkdir /home/osint/tools
 cd /home/osint/tools
 
@@ -15,11 +16,11 @@ echo "                   | (_) \__ \ | | | | |_| |_) | |_| /  \     "
 echo "                    \___/|___/_|_| |_|\__|____/ \___/_/\_\    "
 echo " "
 
-# Instalacion de Requisitios
+# Requirements
 sudo apt install python3 -y
 sudo apt install python3-pip -y
 
-# Instalacion de Herramientas automaticamente
+# Tools installation
 # dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock
 echo "# Installing APPs"
 echo "# The Following APPs are going to be Installed"
@@ -27,6 +28,7 @@ echo "# dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework p
 sudo apt install dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil photon recon-ng sublist3r sherlock -y
 sudo pip3 install osrframework
 sudo pip3 install twint
+
 clear
 echo "#"
 echo "#"
@@ -43,8 +45,6 @@ git clone https://github.com/Datalux/Osintgram.git
 cd Osintgram/
 sudo apt install libncurses5-dev -y
 sudo pip install gnureadline==6.3.3
-#python3 -m venv venv
-#source venv/bin/activate
 pip3 install -r requirements.txt
 make install
 cd ..
