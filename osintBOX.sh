@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Creacion de un Directorio donde descargar las herramientas
 
 mkdir /home/osint/tools
