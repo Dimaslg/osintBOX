@@ -14,10 +14,10 @@ echo
 # Instalacion de Requisitios
 
 # Instalacion de Herramientas automaticamente
-# dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil osrframework photon recon-ng sublist3r sherlock
+# dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock
 echo # Installing APPs
 echo # The Following APPs are going to be Installed
-echo # dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil osrframework photon recon-ng sublist3r sherlock
+echo # dmitry exiftool eyewitness fierce maltego mat2 metagoofil osrframework photon recon-ng sublist3r sherlock
 sudo apt install dmitry exiftool eyewitness fierce maltego mat2 mediainfo metagoofil osrframework photon recon-ng sublist3r sherlock -y
 echo # Automated installation of APPs completed
 
