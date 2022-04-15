@@ -1,7 +1,7 @@
 # Creacion de un Directorio donde descargar las herramientas
 
-mkdir /home/osint/Downloads/tools
-cd /home/osint/Downloads/tools
+mkdir /home/osint/tools
+cd /home/osint/tools
 
 echo
 echo                               _       _   ____   _____  __
