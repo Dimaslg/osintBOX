@@ -83,3 +83,20 @@ echo                    | (_) \__ \ | | | | |_| |_) | |_| /  \
 echo                     \___/|___/_|_| |_|\__|____/ \___/_/\_\
 echo
 echo #                     All the APPs has been installed.
+echo # 
+echo # Excute the following commands to get info on each tool:
+echo # dmitry -h
+echo # exiftool -h
+echo # eyewitness -h
+echo # fierce -h
+echo # mat2 -h
+echo # metagoofil -h
+echo # sudo osrf -h
+echo # sudo osrf -h
+echo # phoneinfoga -h
+echo # photon -h
+echo # recon-ng -h
+echo # sherlock -h
+echo # sublist3r -h
+echo # theHarvester -h
+echo # sudo twint -h
