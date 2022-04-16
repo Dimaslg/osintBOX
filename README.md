@@ -58,6 +58,7 @@ google-earth-pro
   
 # Bookmarks  
   
-The file bookmarks.html contains a series of handpicked website that are usuful on OSINT investigations.  
+The file bookmarks.html contains a series of handpicked websites that are usuful for OSINT investigations.  
+Guides about how to import them:  
 https://support.mozilla.org/en-US/kb/import-bookmarks-html-file  
 https://support.google.com/chrome/answer/96816  
