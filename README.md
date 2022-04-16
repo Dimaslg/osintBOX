@@ -27,7 +27,7 @@ https://www.parrotsec.org
 git clone https://github.com/Dimaslg/osintBOX.git  
 cd osintBOX  
 chmod 755 osintBOX.sh  
-./osintBOX  
+./osintBOX.sh  
 
 # After install  
   
