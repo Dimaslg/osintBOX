@@ -55,3 +55,9 @@ The following programs have a GUI interface and the options can be checked on it
   
 maltego  
 google-earth-pro  
+  
+# Bookmarks  
+  
+The file bookmarks.html contains a series of handpicked website that are usuful on OSINT investigations.  
+https://support.mozilla.org/en-US/kb/import-bookmarks-html-file  
+https://support.google.com/chrome/answer/96816  
