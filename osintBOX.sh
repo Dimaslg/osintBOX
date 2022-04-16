@@ -3,7 +3,7 @@ clear
 # Let's update the system before we begin with the installation
 sudo apt update
 sudo apt update --fix-missing
-sudo apt upgrade -y
+sudo apt safe-upgrade -y
 
 # Let's create a folder for the tools that need to be installed manually
 mkdir /home/$USER/Tools
