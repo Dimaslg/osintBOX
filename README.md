@@ -51,7 +51,7 @@ sudo twint -h
 python3 /home/$USER/Tools/Osintgram/main.py -h  
 python3 /home/$USER/Tools/spiderfoot-4.0/sf.py -h  
   
-The following programs have a GUI interface and the options can be checked from it  
+The following programs have a GUI interface and the options can be checked on it  
   
 maltego  
 google-earth-pro  
