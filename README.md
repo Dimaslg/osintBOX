@@ -46,7 +46,7 @@ cd osintBOX
 chmod 755 osintBOX.sh  
 ./osintBOX.sh  
 
-# After Install  
+# After Installation  
   
 After the script installation, you can check the different options with the following commands:  
   
