@@ -1,5 +1,5 @@
 # osintBOX  
-Parrot OS 5.0 Home edition modified with the most popular OSINT tools  
+Script created for a Parrot OS 5.0 Home edition that will populate it with the most popular OSINT tools.  
 https://www.parrotsec.org  
   
 # Tools
@@ -29,6 +29,9 @@ https://www.parrotsec.org
 - VLC (https://www.videolan.org)
 - Mozilla Firefox (https://www.mozilla.org/en-US/firefox/new/)
 - Tor Browser (https://www.torproject.org/download/)  
+  
+# Requirements
+This script has only been tested on a clean [Parrot OS 5.0 Home Edition](https://www.parrotsec.org/download/) installation.
   
 # Installation  
   
