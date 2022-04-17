@@ -1,5 +1,5 @@
 # osintBOX  
-Parrot OS Home edition modified with the most popular OSINT tools  
+Parrot OS 5.0 Home edition modified with the most popular OSINT tools  
 https://www.parrotsec.org  
   
 # Tools
@@ -21,7 +21,15 @@ https://www.parrotsec.org
 - Spiderfoot (https://github.com/smicallef/spiderfoot)
 - TheHarvester (https://github.com/laramies/theHarvester)
 - Twint (https://github.com/twintproject/twint)
-
+  
+# Parrot OS Tools  
+- AnonSurf (https://parrotsec.org/docs/anonsurf.html)
+- Atril Document Viewer (https://github.com/mate-desktop/atril)
+- LibreOffice (https://www.libreoffice.org/)
+- VLC (https://www.videolan.org)
+- Mozilla Firefox (https://www.mozilla.org/en-US/firefox/new/)
+- Tor Browser (https://www.torproject.org/download/)  
+  
 # Installation  
   
 git clone https://github.com/Dimaslg/osintBOX.git  
