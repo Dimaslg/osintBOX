@@ -1,4 +1,8 @@
-[osintBOX](https://i.imgur.com/DN69nGP.png)
+<p align=center>
+
+  <img src="https://i.imgur.com/DN69nGP.png"/>
+
+</p>
   
 # osintBOX  
 Script created for a Parrot OS 5.0 Home edition that will populate it with the most popular OSINT tools.  
