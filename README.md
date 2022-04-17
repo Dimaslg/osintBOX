@@ -56,13 +56,17 @@ The following programs have a GUI interface and the options can be checked on it
 maltego  
 google-earth-pro  
   
+# Tool requirements  
+  
+Osintgram only works if you provide it with a valid Instagram account. You can do that by typing "make setup" on /Tools/Osintgram folder.  
+Phoneinfoga will show an error if you dont provide a numverify API. You can get one for free by registering on their site https://numverify.com/.
+  
 # Bookmarks  
   
 The file bookmarks.html contains a series of handpicked websites that are usuful for OSINT investigations.  
 Guides about how to import them:  
 https://support.mozilla.org/en-US/kb/import-bookmarks-html-file  
 https://support.google.com/chrome/answer/96816  
-  
   
 # Demo
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/TaEbiyak8T8/0.jpg)](http://www.youtube.com/watch?v=TaEbiyak8T8 "osintBOX")
