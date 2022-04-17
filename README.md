@@ -92,4 +92,5 @@ This Youtube video shows how the script and the tools work.
     
 # Useful OSINT Repositories
 https://github.com/jivoi/awesome-osint  
-https://github.com/Ph055a/OSINT_Collection
+https://github.com/Ph055a/OSINT_Collection  
+https://github.com/cipher387/Dorks-collections-list/
